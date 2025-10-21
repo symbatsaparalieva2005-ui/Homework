@@ -1,0 +1,25 @@
+let num1 = 5;
+let num2 = 4;
+let operator = '+'; 
+
+let result;
+
+switch (operator) {
+  case '+':
+    result = num1 + num2;
+    break;
+  case '-':
+    result = num1 - num2;
+    break;
+  case '/':
+    result = num1 / num2;
+    break;
+  case '*':
+    result = num1 * num2;
+    break;
+  default:
+    result = "Error";
+    break;
+}
+
+console.log("Result:", result);
